@@ -34,10 +34,11 @@ The Streamlit interface lets users upload a CCTV frame and instantly view the mo
 
 ```
 .
-├── app/
+├── APP/
 │   └── app.py            # Streamlit web app
 ├── notebook/
-│   └── notebook.ipynb    # Data cleaning, training, fine-tuning
+│   ├── notebook.ipynb               # Data cleaning, training, fine-tuning
+│   └── Rawane_wassim.keras          # Trained model
 ├── .gitignore
 ├── requirements.txt
 └── README.md
